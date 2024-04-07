@@ -4,9 +4,9 @@ public class Times {
 
     private String nome;
     private int image;
-    private String titulos;
+    private int titulos;
 
-    public Times(String nome, int image, String titulos) {
+    public Times(String nome, int image, int titulos) {
         this.nome = nome;
         this.image = image;
         this.titulos = titulos;
@@ -26,11 +26,8 @@ public class Times {
     public void setImage(int image){
         this.image = image;
     }
-    public String getTitulos(){
-        return titulos;
-    }
-
-    public void setTitulos(String titulos){
+    public int getTitulos(){return titulos;}
+    public void setTitulos(int titulos){
         this.titulos = titulos;
     }
 }

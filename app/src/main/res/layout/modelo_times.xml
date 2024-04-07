@@ -7,8 +7,9 @@
     android:layout_margin="10dp"
     android:clickable="true"
     android:foreground="?android:attr/selectableItemBackground"
-    app:cardCornerRadius="6dp"
+    app:cardCornerRadius="12dp"
     android:background="#ffd2b6">
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -16,35 +17,36 @@
         android:orientation="vertical"
         >
 
+
         <ImageView
             android:id="@+id/id_imgTimes"
             android:layout_width="match_parent"
             android:layout_height="160dp"
-            android:background="#ffd2b6"
+            android:background="#000"
             android:scaleType="centerCrop" />
 
         <TextView
             android:textStyle="bold"
             android:id="@+id/id_lblNomeTimes"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="40dp"
             android:gravity="center"
             android:text="Nome"
-            android:textColor="#753d1b"
-            android:textSize="18sp"
-            android:background="#ffe9da"
-            android:fontFamily="@font/baloo_bhai"/>
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:background="#fff"
+            android:fontFamily="@font/audiowide"/>
         <TextView
             android:textStyle="bold"
             android:id="@+id/id_lblTitulos"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:text="Titulos"
-            android:textColor="#753d1b"
+            android:text="Titulos:"
+            android:textColor="#fff"
             android:textSize="18sp"
-            android:background="#ffe9da"
-            android:fontFamily="@font/baloo_bhai"/>
+            android:background="#000"
+            android:fontFamily="@font/audiowide"/>
 
     </LinearLayout>
 

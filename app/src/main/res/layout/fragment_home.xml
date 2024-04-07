@@ -10,14 +10,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="Home Fragment"
+        android:text="Times"
         android:textColor="#FFFFFF"
-        android:textSize="30sp" />
+        android:textSize="35sp"
+        android:fontFamily="@font/audiowide"
+        android:textAllCaps="true"/>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/idListaTimes"
+        android:id="@+id/idRecyclerTimes"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         />
+
 
 </FrameLayout>
